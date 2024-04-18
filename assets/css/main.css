@@ -3589,7 +3589,7 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		background-color: #2a2f4a;
+		/* background-color: #2a2f4a; */
 	}
 
 		#main > * {
@@ -3628,7 +3628,7 @@ input, select, textarea {
 		overflow-x: hidden;
 		display: flex;
 		justify-content: space-between;			
-		margin: .5em 3em .5em 8em;
+		margin: .5em 3em .5em 10em;
 	}
 
 		#contact > .inner {
@@ -3674,6 +3674,9 @@ input, select, textarea {
 				}
 
 		@media screen and (max-width: 980px) {
+			#contact {			
+				margin-left: 8em;
+			}
 
 			#contact > .inner {
 				display: block;
@@ -3701,6 +3704,9 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 736px) {
+			#contact {			
+				margin-left: 6em;
+			}
 
 			#contact > .inner > :nth-child(2n - 1) {
 				padding: 3em 0 1em 0 ;
